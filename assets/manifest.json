@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "main.css": {
+      "files": [
+        "sass/main.scss"
+      ],
+      "main": true
+    },
+    "vendor.css": {
+      "files": [
+        "css/bootstrap.min.css"
+      ]
+    },
+    "vendor.min.js": {
+      "files": [
+        "js/bootstrap.min.js"
+      ]
+    },
+    "main.min.js":{
+      "files":[
+        "js/_main.js"
+      ]
+    }
+  }
+}
