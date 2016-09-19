@@ -2,14 +2,15 @@
   "scripts": {
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
-    "jscs": "jscs gulpfile.js assets/scripts/*.js"
+    "jscs": "jscs gulpfile.js assets/scripts/*.js",
+    "e2e": "node_modules/.bin/nightwatch"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "bower": ">=1.3.9",
     "asset-builder": "^1.0.2",
+    "bower": ">=1.3.9",
     "browser-sync": "^2.7.1",
     "del": "^2.0.0",
     "gulp": "^3.8.11",
@@ -31,13 +32,15 @@
     "gulp-sass": "^2.0.0",
     "gulp-sourcemaps": "^1.5.1",
     "gulp-uglify": "^1.1.0",
-    "less-middleware": "^2.0.0",
     "imagemin-pngcrush": "^4.0.0",
     "jshint-stylish": "^1.0.1",
     "lazypipe": "^0.2.2",
+    "less-middleware": "^2.0.0",
     "merge-stream": "^0.1.7",
     "minimist": "^1.1.1",
+    "nightwatch": "^0.9.8",
     "run-sequence": "^1.0.2",
+    "selenium-download": "^2.0.6",
     "traverse": "^0.6.6",
     "wiredep": "^2.2.2"
   }
